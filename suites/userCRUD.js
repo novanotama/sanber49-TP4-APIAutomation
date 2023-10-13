@@ -1,4 +1,4 @@
-const { createUser } = require('../object/createU');
+const { createUser } = require('../object/createUser');
 const { login } = require('../object/login');
 const { selectSingleUser } = require('../object/selectSingleUser');
 const { updateUser } = require('../object/updateUser');

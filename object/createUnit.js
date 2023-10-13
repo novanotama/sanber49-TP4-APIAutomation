@@ -1,11 +1,11 @@
 const request = require('supertest');
 
-async function createCategory(categoryData, accessToken) {
+async function createUnit(unitData, accessToken) {
   try {
     const response = await request('https://kasir-api.belajarqa.com')
-      .post('/categories')
+      .post('/units')
       .set('Authorization', `Bearer ${accessToken}`)
-      .send(categoryData);
+      .send(unitData);
 
     return response;
   } catch (error) {
@@ -14,4 +14,4 @@ async function createCategory(categoryData, accessToken) {
   }
 }
 
-module.exports = { createCategory };
+module.exports = { createUnit };

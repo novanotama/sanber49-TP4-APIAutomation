@@ -1,6 +1,6 @@
 const request = require("supertest");
 
-async function updateUnit(unitId, accessToken, cateunitUpdategoryUpdate) {
+async function updateUnit(unitId, accessToken, unitUpdate) {
   try {
     const response = await request("https://kasir-api.belajarqa.com")
       .put(`/units/${unitId}`)
