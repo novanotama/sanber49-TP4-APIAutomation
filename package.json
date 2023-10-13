@@ -1,0 +1,19 @@
+{
+  "name": "sanber49-tp4-apiautomation",
+  "version": "1.0.0",
+  "description": "Sanber-49 Tugas Pekanan 4 API Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js --reporter mochawesome --reporter-options reportDir=customReportDir,reportFilename=customReportFilename"
+  },
+  "author": "novan",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.3"
+  }
+}
